@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+html,body{
+    height:100%;
+    width:100;
+    font-family: 'Josefin Sans', serif;
+}
+
+.carousel-inner img {
+    width: auto;
+   height:auto;
+    max-height: 600px;
+    min-height:50px;
+}
