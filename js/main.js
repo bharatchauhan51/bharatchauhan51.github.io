@@ -25,7 +25,8 @@ window.addEventListener('load',()=>{
                       const{temperature,summary}=data.currently;
                       c=((temperature-32)*5/9).toFixed(2);
                       temperatureDegree.textContent= c;
-                      console.log(c);
+                      temperatureDescription.textContent= summary;
+                      console.log(summary);
                 });
         });
     }
