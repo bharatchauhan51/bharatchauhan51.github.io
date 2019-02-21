@@ -13,14 +13,22 @@
     color:white;
 }
 
-.location, .temperature{
+.temperature{
     height:10vh;
     width: 50%;
     display:flex;
     justify-content: space-around;
     align-items: center;
 }
+.location{
+    height:10vh;
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
 
+}
 .temperature{
     flex-direction: column;
 }
