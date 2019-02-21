@@ -21,10 +21,11 @@ window.addEventListener('load',()=>{
                      return response.json();
                 })
                  .then(data=>{
-                      
+                      let c;
                       const{temperature,summary}=data.currently;
-                      temperatureDegree.textContent= temperature;
-                      console.log(temperatureDegree);
+                      c=((temperature-32)*5/9).toFixed(2);
+                      temperatureDegree.textContent= c;
+                      console.log(c);
                 });
         });
     }
